@@ -10,7 +10,7 @@
 
 #snowflkae-connector-python
 #import snowflkae.connector 
-pip install -r requirements.txt
+#pip install -r requirements.txt
 
 asn1crypto==1.5.1
 certifi==2022.6.15
