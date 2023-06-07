@@ -1,10 +1,10 @@
-snowflake-connector-python[pandas] or snowflake-connector-python[pandas]pyarrow<8.1.0,>=8.0.0 or snowflake-connector-python
-
+snowflake-connector-python[pandas]
 cffi==1.15.0
-
 pyarrow<8.1.0,>=8.0.0
+streamlit>=1.9.2
 
-streamlit >= 1.9.2
+pip install -r requirements.txt
+
 # requirments.txt
 
 snowflkae-connector-python
