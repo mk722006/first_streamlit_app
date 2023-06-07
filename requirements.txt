@@ -1,2 +1,3 @@
 # requirments.txt
 snowflkae-connector-python
+import snowflkae.connector
