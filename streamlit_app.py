@@ -27,11 +27,11 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
 
-# import subprocess
-# import sys
+import subprocess
+import sys
 
-# def upgrade_pip():
-#     subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
+def upgrade_pip():
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
 
-# # Call the upgrade_pip() function to upgrade pip
-# upgrade_pip()
+# Call the upgrade_pip() function to upgrade pip
+upgrade_pip()
