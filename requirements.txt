@@ -1,11 +1,4 @@
 # requirments.txt
-import subprocess
-import sys
 
-def upgrade_pip():
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
-
-# Call the upgrade_pip() function to upgrade pip
-upgrade_pip()
 snowflkae-connector-python
 import snowflkae.connector 
