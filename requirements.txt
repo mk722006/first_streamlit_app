@@ -34,4 +34,4 @@ sqlalchemy
 snowflake-sqlalchemy
 snowflake-connector-python[pandas]
 
-
+pip install -r requirements.txt
