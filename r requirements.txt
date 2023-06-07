@@ -1,5 +1,8 @@
 pip install -r requirements.txt
 
+snowflkae-connector-python
+import snowflkae.connector 
+
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
 my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
