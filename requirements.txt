@@ -1,5 +1,5 @@
 # requirments.txt
 
-snowflkae-connector-python
-import snowflkae.connector 
+#snowflkae-connector-python
+#import snowflkae.connector 
 
