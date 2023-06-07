@@ -35,3 +35,4 @@ def upgrade_pip():
 
 # Call the upgrade_pip() function to upgrade pip
 upgrade_pip()
+
